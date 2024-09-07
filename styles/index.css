@@ -14,6 +14,7 @@
 
 .nav-link {
   color: #fff;
+  padding: 0;
 }
 
 .navbar-brand {
@@ -27,12 +28,64 @@
 #saiba_mais {
   background-image: url("../images/image.avif");
   background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
 }
 
 #saiba_mais h1 {
   color: #fff;
+  padding-top: 7rem;
+  margin: 0 auto;
+  width: 78%;
+  font-weight: bold;
+  font-size: 2.6em;
 }
 
-#saiba_mais p {
+#saiba_mais .sobre {
   color: #fff;
+  padding-top: 1.5rem;
+  margin: 0 auto;
+  width: 55%;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+#para_empresas {
+  color: #3333FF;
+}
+
+#conheca_mais {
+  background-color: #3333FF;
+  border-color: #3333FF;
+}
+
+#section_video {
+  background-color: rgb(15, 15, 17);
+  height: 80vh;
+}
+
+#section_video h1 {
+  color: #fff;
+  padding-top: 6vh;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-bottom: 3vh;
+}
+
+footer {
+  background-color: #060606;
+  height: 25vh;
+}
+
+#digital_house_footer {
+  padding-top: 5rem;
+}
+
+#digital_house_footer hr {
+  color: rgb(179, 179, 179);
+}
+
+#digital_house_footer p {
+  color: rgb(179, 179, 179);
+  padding-top: 2rem;
 }/*# sourceMappingURL=index.css.map */
